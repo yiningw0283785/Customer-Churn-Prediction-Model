@@ -17,6 +17,7 @@ Olist, a leading Brazilian e-commerce marketplace, experiences high customer acq
   - `churn = 1`: No purchase in past 180 days  
   - `churn = 0`: Active customer
 - **Missing Values**: Imputed with median (e.g., review scores)
+- **Outlier**:  **Binning** and  **Capping (Winsorization)** for stability
 - **Normalization**: Yeo-Johnson transformation
 - **Categorical Variables**: One-hot encoded
 - **Train-Test Split**: 80% / 20%
